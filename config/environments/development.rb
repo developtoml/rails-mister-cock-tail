@@ -37,7 +37,7 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   # Print deprecation notices to the Rails logger.
-  config.active_support.deprecation = :log
+  config.active_support.deprecation = :cloudinary
 
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
@@ -55,7 +55,6 @@ Rails.application.configure do
 
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
-  config.active_storage.service = :cloudinary
 
 
   # Use an evented file watcher to asynchronously detect changes in source code,
